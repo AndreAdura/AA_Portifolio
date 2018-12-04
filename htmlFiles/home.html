@@ -15,7 +15,7 @@
    <body id="index">
       <!--NAVBAR-->
       <nav class="navbar sticky-top text-white navbar-expand-lg navbar-light">
-         <img src="image/logo.jpg" alt="logo" class="logo">
+         <img src="../image/logo.png" alt="logo" id="logoHome">
          <a class="navbar-brand text-white" href="#home">Home</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -31,8 +31,15 @@
                <li class="nav-item">
                   <a class="nav-link text-white" href="#skills">My Skills<span class="sr-only">(current)</span></a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link text-white" href="#portifolio">Portifolio</a>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Portfolio
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Games</a>
+                   <a class="dropdown-item" href="graphics.html">Graphics</a>
+
+                 </div>
                </li>
                <li class="nav-item">
                   <a class="nav-link text-white" href="#cttHeader">Contact</a>
