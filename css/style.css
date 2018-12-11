@@ -18,6 +18,14 @@
 	background-repeat: no-repeat;
 }
 
+#indexGames{
+	background-image: url(../image/gameBg.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 h2{
 	font-family: 'Russo One', sans-serif;
 }
