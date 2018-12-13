@@ -238,3 +238,32 @@ nav a:hover{
 	width: 50px;
 	margin-right: 10px;
 }
+
+#timberman{
+	height: 600px;
+	width: 900px;
+	
+}
+
+#RealTimberman{
+	height: 600px;
+	width: 1000px;
+	
+}
+
+#LearToCount{
+	height: 800px;
+	width: 400px;
+}
+
+#gameHeader{
+	margin-top: 100px;
+}
+
+#download{
+	margin-left:70px;
+	margin-right: 70px;
+	border: solid gray 1px;
+	border-radius: 2px;
+	padding: 10px;
+}
